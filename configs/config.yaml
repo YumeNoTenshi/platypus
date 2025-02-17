@@ -1,0 +1,69 @@
+server:
+  port: 8080
+  host: "0.0.0.0"
+
+metrics:
+  collector:
+    retention_period: "168h"    # 7 дней
+    collection_interval: "1m"   # 1 минута
+    batch_size: 100
+    buffer_size: 1000
+  
+  analyzer:
+    min_data_points: 10
+    smoothing_factor: 0.2
+    anomaly_threshold: 2.5
+
+kubernetes:
+  enabled: true
+  config_path: "~/.kube/config"
+
+cloud_providers:
+  aws:
+    enabled: true
+    region: "us-west-2"
+  gcp:
+    enabled: false
+  azure:
+    enabled: false
+
+ml_predictor:
+  history_window: "168h"    # 7 дней
+  prediction_window: "24h"  # 1 день
+  update_interval: "1h"     # 1 час
+  min_data_points: 24
+  model_path: "./data/models"
+
+autoscaler:
+  cpu_threshold_high: 80.0
+  cpu_threshold_low: 20.0
+  power_threshold_high: 1000.0
+  scale_up_cooldown: "5m"
+  scale_down_cooldown: "15m"
+  evaluation_interval: "1m"
+
+migration_planner:
+  min_power_saving: 100.0      # Минимальная экономия в ваттах
+  max_downtime: "2m"           # Максимальное время простоя
+  planning_interval: "5m"      # Интервал планирования
+  concurrent_migrations: 3      # Количество одновременных миграций
+
+ecotags:
+  update_interval: "15m"
+  min_data_points: 10
+  tags:
+    eco_efficient:
+      threshold: 80
+      weight: 1.0
+    energy_intensive:
+      threshold: 500
+      weight: 1.0
+    carbon_neutral:
+      threshold: 0.1
+      weight: 1.5
+    optimizable:
+      threshold: 60
+      weight: 0.8
+    peak_hours:
+      threshold: 0.8
+      weight: 0.7
