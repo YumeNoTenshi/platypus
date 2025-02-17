@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/yourusername/platypus/internal/metrics"
-	"github.com/yourusername/platypus/internal/models"
+	"../../../platypus/internal/metrics"
+	"../../../platypus/internal/models"
 )
 
 type Server struct {

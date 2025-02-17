@@ -4,7 +4,7 @@ import (
     "context"
     "time"
     
-    "github.com/yourusername/platypus/internal/models"
+    "../../../platypus/internal/models"
 )
 
 // CloudProvider определяет интерфейс для работы с облачными провайдерами

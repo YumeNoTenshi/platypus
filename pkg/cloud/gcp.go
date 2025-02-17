@@ -7,7 +7,7 @@ import (
 
 	compute "google.golang.org/api/compute/v1"
 	monitoring "google.golang.org/api/monitoring/v3"
-	"github.com/yourusername/platypus/internal/models"
+	"../../../platypus/internal/models"
 )
 
 type GCPProvider struct {

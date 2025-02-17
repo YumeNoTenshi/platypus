@@ -6,13 +6,13 @@ import (
     "net/http"
     "time"
     
-    "github.com/yourusername/platypus/internal/api"
-    "github.com/yourusername/platypus/internal/metrics"
-    "github.com/yourusername/platypus/internal/scaling"
-    "github.com/yourusername/platypus/internal/migration"
-    "github.com/yourusername/platypus/pkg/cloud"
-    "github.com/yourusername/platypus/pkg/ml"
-    "github.com/yourusername/platypus/internal/ecotags"
+    "../../../platypus/internal/api"
+    "../../../internal/metrics"
+    "../../../internal/scaling"
+    "../../../internal/migration"
+    "../../../pkg/cloud"
+    "../../../pkg/ml"
+    "../../../internal/ecotags"
 )
 
 func main() {

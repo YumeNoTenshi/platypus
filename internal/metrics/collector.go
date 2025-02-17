@@ -7,7 +7,7 @@ import (
     "time"
     
     "github.com/prometheus/client_golang/prometheus"
-    "github.com/yourusername/platypus/internal/models"
+    "../../../platypus/internal/models"
 )
 
 type CollectorConfig struct {

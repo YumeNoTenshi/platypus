@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/yourusername/platypus/internal/models"
+	"../../../platypus/internal/models"
 )
 
 type AnalyzerConfig struct {
