@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"../../../platypus/internal/metrics"
-	"../../../platypus/internal/models"
+	"github.com/YumeNoTenshi/platypus/internal/metrics"
+	"github.com/YumeNoTenshi/platypus/internal/models"
 )
 
 type Server struct {

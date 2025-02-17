@@ -8,8 +8,8 @@ import (
     "sync"
     "time"
     
-    "../../../platypus/internal/metrics"
-    "../../../platypus/internal/models"
+    "github.com/YumeNoTenshi/platypus/internal/metrics"
+    "github.com/YumeNoTenshi/platypus/internal/models"
     "gonum.org/v1/gonum/stat"
 )
 

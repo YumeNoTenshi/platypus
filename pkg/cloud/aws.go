@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatch"
-	"../../../platypus/internal/models"
+	"github.com/YumeNoTenshi/platypus/internal/models"
 )
 
 type AWSProvider struct {

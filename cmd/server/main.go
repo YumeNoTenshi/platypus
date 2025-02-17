@@ -6,13 +6,13 @@ import (
     "net/http"
     "time"
     
-    "../../../platypus/internal/api"
-    "../../../internal/metrics"
-    "../../../internal/scaling"
-    "../../../internal/migration"
-    "../../../pkg/cloud"
-    "../../../pkg/ml"
-    "../../../internal/ecotags"
+    "github.com/YumeNoTenshi/platypus/internal/api"
+    "github.com/YumeNoTenshi/internal/metrics"
+    "github.com/YumeNoTenshi/internal/scaling"
+    "github.com/YumeNoTenshi/internal/migration"
+    "github.com/YumeNoTenshi/pkg/cloud"
+    "github.com/YumeNoTenshi/pkg/ml"
+    "github.com/YumeNoTenshi/internal/ecotags"
 )
 
 func main() {

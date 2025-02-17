@@ -5,8 +5,8 @@ import (
     "sync"
     "time"
     
-    "../../../platypus/internal/metrics"
-    "../../../platypus/internal/models"
+    "github.com/YumeNoTenshi/platypus/internal/metrics"
+    "github.com/YumeNoTenshi/platypus/internal/models"
 )
 
 // EcoTag представляет экологический тег

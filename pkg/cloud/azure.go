@@ -6,7 +6,7 @@ import (
     
     "github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2021-03-01/compute"
     "github.com/Azure/azure-sdk-for-go/services/monitor/mgmt/2021-05-01/insights"
-    "../../../platypus/internal/models"
+    "github.com/YumeNoTenshi/platypus/internal/models"
 )
 
 type AzureProvider struct {

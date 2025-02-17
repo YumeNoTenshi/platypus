@@ -5,9 +5,9 @@ import (
     "sync"
     "time"
     
-    "../../../platypus/internal/metrics"
-    "../../../platypus/internal/models"
-    "../../../platypus/pkg/cloud"
+    "github.com/YumeNoTenshi/platypus/internal/metrics"
+    "github.com/YumeNoTenshi/platypus/internal/models"
+    "github.com/YumeNoTenshi/platypus/pkg/cloud"
 )
 
 type AutoscalerConfig struct {
