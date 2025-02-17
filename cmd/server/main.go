@@ -7,12 +7,12 @@ import (
     "time"
     
     "github.com/YumeNoTenshi/platypus/internal/api"
-    "github.com/YumeNoTenshi/internal/metrics"
-    "github.com/YumeNoTenshi/internal/scaling"
-    "github.com/YumeNoTenshi/internal/migration"
-    "github.com/YumeNoTenshi/pkg/cloud"
-    "github.com/YumeNoTenshi/pkg/ml"
-    "github.com/YumeNoTenshi/internal/ecotags"
+    "github.com/YumeNoTenshi/platypus/internal/metrics"
+    "github.com/YumeNoTenshi/platypus/internal/scaling"
+    "github.com/YumeNoTenshi/platypus/internal/migration"
+    "github.com/YumeNoTenshi/platypus/pkg/cloud"
+    "github.com/YumeNoTenshi/platypus/pkg/ml"
+    "github.com/YumeNoTenshi/platypus/internal/ecotags"
 )
 
 func main() {
