@@ -103,6 +103,7 @@ Please update these settings based on your deployment environment and requiremen
 
 TODO
 Integration with Kubernetes for enhanced container management and orchestration.
+Integration with Azure Cloud for Azure-specific features and services.
 
 
 License
